@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  width: 25vw;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  margin: 2%;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.box-number,
+.box-value {
+  font-size: 1.5em;
+}

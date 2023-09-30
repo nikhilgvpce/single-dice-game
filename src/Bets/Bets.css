@@ -1,0 +1,15 @@
+.bets {
+  display: flex;
+  flex-direction: column;
+}
+
+.bets-wallet-amount {
+  margin: 5%;
+  font-size: 2em;
+}
+
+.bets-positions {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}

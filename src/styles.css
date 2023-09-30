@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0pt;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    89.1deg,
+    rgb(251, 0, 83) 15.2%,
+    rgb(179, 146, 231) 98.5%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+.timer-space {
+  margin: 5%;
+  font-size: 25px;
+  width: 10vw;
+  align-self: center;
+  border: 3px solid grey;
+  color: cyan;
+}
